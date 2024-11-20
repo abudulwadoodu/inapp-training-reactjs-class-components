@@ -1,3 +1,8 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app-container {
+  display: flex;
+  height: 100%;
+}
+
+.component1, .component2 {
+  flex: 1;
+  padding: 10px;
+}
+
+.component1 {
+  background-color: #f0f0f0;
+}
+
+.component2 {
+  background-color: #e0e0e0;
 }
